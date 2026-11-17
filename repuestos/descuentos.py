@@ -1,11 +1,4 @@
-"""Descuentos.
 
-O (Abierto/Cerrado): para agregar un descuento nuevo se crea una clase nueva,
-sin modificar ServicioPedidos.
-
-L (Sustitución de Liskov): todas las clases cumplen el mismo contrato,
-así que cualquiera puede usarse en lugar de otra sin sorpresas.
-"""
 from decimal import Decimal
 from typing import Protocol
 

@@ -1,9 +1,4 @@
-"""Refactor seguro: limpiar sin romper.
 
-Prueba de caracterización: el código viejo (modulo1_antes.py) y el nuevo
-(repuestos/) deben dar EXACTAMENTE el mismo total para los mismos pedidos.
-Si esta prueba pasa, el refactor no cambió el comportamiento.
-"""
 import contextlib
 import io
 import unittest

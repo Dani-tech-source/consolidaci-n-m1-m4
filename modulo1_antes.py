@@ -1,17 +1,4 @@
-# =====================================================================
-# CÓDIGO "QUE FUNCIONA" (pero no es profesional)
-# Punto de partida para el Módulo 1 (Clean Code) y el Módulo 3 (SOLID).
-#
-# Code smells que tiene a propósito:
-#   - Nombres sin significado: d, proc, c, l, t, x, p, tot
-#   - Números mágicos: 0.10, 0.20, 0.15, -1
-#   - Una sola función hace TODO: valida, calcula, descuenta, actualiza
-#     inventario y "envía correo" (viola SRP)
-#   - Para agregar un descuento nuevo hay que modificar la función (viola OCP)
-#   - Depende de un diccionario global y de print() (viola DIP, difícil de probar)
-#   - Devuelve -1 como código de error en vez de lanzar una excepción
-#   - Comentarios que no aportan nada ("calcula", "isv")
-# =====================================================================
+
 
 d = {}  # inventario
 

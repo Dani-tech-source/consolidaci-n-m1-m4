@@ -1,8 +1,4 @@
-"""Lógica de negocio de los pedidos.
 
-S (Responsabilidad única): esta clase solo coordina un pedido. Los descuentos,
-el acceso a datos y las notificaciones viven en sus propios módulos.
-"""
 from decimal import ROUND_HALF_UP, Decimal
 from typing import List
 
